@@ -21,9 +21,28 @@ public class Program
 ```
 [/code-editor]
 [task-description]
-Write a C# program, which:
+[html]
+<p>Write a C# program, which:
+Prints "Hello C#" on the console</p>
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+  </table>
+[/html]
 
-Prints "Hello C#" on the console
 [/task-description]
 [code-io /]
 [/code-task]
