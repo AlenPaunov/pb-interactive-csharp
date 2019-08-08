@@ -2,6 +2,11 @@
 # What is Coding?
 **Coding** means to give **commands** to tell the computer what to do
 [html]
+<style>
+  p.custom-p{
+    color: black;
+  }
+</style>
 <!-- Remember to include jQuery :) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
@@ -11,7 +16,7 @@
 
 <!-- Modal HTML embedded directly into document -->
 <div id="ex1" class="modal">
-  <p>Thanks for clicking. That felt good.</p>
+  <p class="custom-p">Thanks for clicking. That felt good.</p>
   <a href="#" rel="modal:close">Close</a>
 </div>
 
